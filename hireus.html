@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hire Us</title>
+    <link rel="stylesheet" href="./hireus.css">
+</head>
+<body>
+    <div class="hire-form">
+
+        <form action="" id="myform" onsubmit="return validates()" method="POST">
+
+        <div class="input-container">
+           <h2 style="text-align: center;">Hire Us</h2>
+            <hr >
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Full Name" required pattern="^([a-zA-Z]{4,}+) ([a-z A-Z]{2,})">
+                <span class="lb" id="lname">*</span>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="text" name="" id="email" placeholder="email" required pattern="^([a-zA-Z 0-9\. -]+)@([a-zA-Z 0-9\-]+).([a-z A-Z]{2,8})(.[a-z]{2,9})?$">
+                <label for="email"id="lemail" class="lb"></label>
+            </div>
+            <div>
+                <label for="number">Phone:</label>
+                <input type="text" id="number" placeholder="+919000000" value="+91" required pattern="(+[1-9]{2})[1-9]\d{9}$">
+                <label for="number" id="lnumber" class="lb"></label>
+            </div>
+            <div>
+                <label for="service">Service:</label>
+                <select name="services" id="services" required>
+                    <option value="s">---Select Service---</option>
+                    <option value="Web Design">Web Desing</option>
+                    <option value="web hosting">Web Hosting</option>
+                    <option value="Domain Name">Domain Name</option>
+                    <option value="SEO">SEO</option>   
+               </select>
+               <span class="lb" id="ls">*</span>
+            </div>
+            <div>
+                <label for="purpose">Porpose:</label>
+                <input type="text" id="purpose">
+                <label for="purpose"></label>
+            </div>
+        </div>
+        <div class="btn">
+            <button class="send" type="submit" >Send</button>
+            <button onclick="Reset()" class="reset" type="reset">Reset</button>
+        </div>
+    
+    </div>
+</bod</form>
+<script src="hireus.js"></script>
+</html>

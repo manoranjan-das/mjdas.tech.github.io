@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: auto;
+    background-color: #1f3057;
+    background: rgb(2,11,27);
+background: linear-gradient(90deg, rgba(2,11,27,1) 0%, rgba(3,14,33,1) 100%, rgba(14,39,84,1) 100%);
+    font-family:'Times New Roman', Times, serif ;
+} 
+h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ hr{
+   
+    width: 20%;
+    margin: auto;
+    margin-top: -5px;
+    margin-bottom: 8px;
+    color: green;
+    background-color: green;
+}
+
+div.hire-form{
+    position: absolute;
+    height: auto;
+    width:80% ;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background:rgba(0,0,0,0.3);
+
+    border: 1px solid ;
+    border-radius: 5px;
+    color: white;
+}
+.input-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-container div{
+    
+    border: 1px solid ;
+    padding: 12px 18px;
+    margin: 8px 10px ;
+    border-radius: 4px;
+}
+label{
+    font-size: 18px;
+    display: block;
+    text-align: left;
+}
+.lb{
+    color: red;
+    visibility: hidden;
+}
+input{
+    width: 98%;
+    background: none;
+    outline: none;
+    border: none;
+    height: 20px;
+    margin-top: 4px;
+    font-size: 16px;
+    padding-left: 5px;
+    color: white;
+}
+select{
+    width: 98%;
+    color: white;
+    background: none;
+    outline: none;
+    margin-top: 4px;
+    height: 20px;
+    border: 1px solid;
+    padding-left: 5px;
+    text-transform: uppercase;
+}
+
+option{
+    width: auto;
+    background-color: #1f3057;
+    text-transform: uppercase;
+}
+
+.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+button{
+   margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    padding:8px 15px;
+    font-size: 18px;
+    border: 1px solid transparent ;
+    border-radius: 3px;
+}
+.send{
+     background-color:#4de350;
+
+}
+.reset{
+    background-color: #e34d40;
+}
+.send:hover{
+   color:#c4e00d;
+   transition:5sec ease-in-out;  
+   background-color: #048014;
+    
+}
+.reset:hover{
+    background-color: #d4b0b0;
+    transition: 5sec ease-in-out;
+    color:red;
+}

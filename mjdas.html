@@ -1,0 +1,142 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="./logo/favlogo.png" type="image/gif" sizes="20*20">
+    <title>Welcome to mjdas.tech || Best in website Design</title>
+    <link rel="stylesheet" href="mjdas.css">
+	
+</head>
+<body>	
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="./logo/logo1.png" alt="logo">
+            </div>
+			<div class="icon" id="icon" onclick="showNav()">
+					<div id="bar1"></div>
+					<div id="bar2"></div>
+					<div id="bar3"></div>
+			</div>
+			<div class="hr-section"></div>
+            <div class="menu" id="menu-bar">
+                <ul><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <li><a href="#home" class="menu-link" >Home</a></li>
+                    <li><a href="#home" class="menu-link">About</a></li>
+                    <li><a href="#service-c" class="menu-link">Service</a></li>
+                    <li> <a href="#contact-us" class="menu-link">contact us</a></li>
+                    <li class="hire" class="menu-link"><a href="hireus.html" target="_blank">Hire us</a></li>
+                </ul> 
+            </div>
+			
+        </nav>
+        <!-- Sliding Image -->
+        <div class="slide-container">
+            <div class="mySlide">
+                <img src="./img/s1.jpg" alt="" >
+                <div class="text" id="txt1">
+                <h2 style="color: #66ff66;">Best web services.</h2>
+                <p style="color: #ff3385;">
+                    For all startup and existing business.
+                </p>    
+                </div>
+            </div>
+            <div class="mySlide">
+                <img src="./img/s3.jpg" alt="">
+                <div class="text" id="txt2">
+                    <h2 style="color:ff3385;">Responsive and Efective.</h2>
+                    <p style="color:white">We made your busness available for any paltform in effective way.</p>
+                </div>
+            </div>
+            <div class="mySlide">
+                <img src="./img/s4.jpg" alt="" >
+                <div class="text" id="txt3">
+                    <h2 style="color:rgb(46, 46, 155);">Cost Efective Services.</h2>
+                    <p style="color:  #33cc33;">Our service are cost effective.</p>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="dot" style="text-align: center;">
+            <span class="dotss"></span>
+            <span class="dotss"></span>
+            <span class="dotss"></span>
+    
+        </div>
+    </header>
+    <!-- -------------Service Container---------- -->
+    <div class="service-contain" id="service-c">
+        <h2 style="text-align:center">Our Services</h2>
+        
+        <section class="service-1">
+            <div class="c1"><img src="./logo/web design.png" alt="web design logo"><h3>Web Design</h3>
+            <p>We provide best web design service in odisha with very cost effective price.
+                Our team member are well experienced and having knowledge good on various web design technology. For more <a href="hireus.html">Click Here.</a>
+            </p>
+            </div>
+            <div class="c1"><img src="./logo/web hosting.png" alt="web hosting logo"><h3>Web Hosting</h3>
+            <p>We alwyas searching for best and low cost web hosting for our customer. For know more <a href="hireus.html">Click Here</a></p>
+            </div>  
+        </section>
+        <section class="service-2">
+             <div class="c2"><img src="./logo/deomain name.png" alt=""><h3>Domain Registration</h3><p>As our main view is the best service in low price,
+                  Hence also we provide your Domian name after comparing lots of domain provider. For know more <a href="hireus.html">Click Here</a></p></div>
+            <div class="c2"><img src="./logo/seo.jpg" alt=""><h3>SEO</h3>
+            <p>
+                We provide Search Engine optimistion service in odisha. We optimise and discoverable your webpages and content of your website to user in organic way. For know more <a href="hireus.html">Click Here</a></p>
+            </div>
+        </section>
+        </div>
+        <!-- ----hire us---- -->
+        <section class="Hire-Us" id="hire-us">
+            <h2><a href="hireus.html" target="_blank"> Hire Us  </a></h2>
+        </section>
+        <!-- ----contact us------ -->
+        <section class="contact" id="contact-us">
+            <h2>Contact Us</h2>
+            <form onsubmit="return txtvalid()"> <!-- -----------conatct.php -->
+                
+                <input name="name" type="text" required placeholder="Enter Your Full Name" class="c-name" pattern="^([A-Z a-z]{3,}) ([A-Z a-z]{2,10})">
+               
+                <input type="text" placeholder="Enter Your Email" class="c-email" required pattern="^([a-zA-Z 0-9\.-]+)@([a-zA-Z 0-9\-]+).([a-z A-Z]{2,9})(.[a-zA-Z]{2,9})?$" >
+               <textarea name="txt-area" required id="txt-area" cols="35" rows="10" placeholder="Write your query..."></textarea>
+              <div class="txt-alert" id="txtalert" ></div>
+               <button type="submit" id="btn1" class="btn1">Send</button>
+            </form>
+        </section>
+        <!-- -------footer------ -->
+        <section class="footer">
+                <footer>
+                    <div class="footer-logo">
+                        <img src="./logo/newlogo1.png" alt="">
+                    </div>
+                    <div class="footer-links">
+                        <h3 style="text-align: center;">Links <hr width="15%"> </h3>
+                        <ul>
+                            <li><a href="">Web Design</a></li>
+                            <li><a href="">Web Hosting</a></li>
+                            <li><a href="">Domain Registration</a></li>
+                            <li><a href="">Seo</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-contact">
+                        <h3 style="text-align: center; ">Conatct Details<hr width="30%"></h3>
+                       <address>
+                        Name: Manoranjan Das, <br>
+                        Address:- Cuttack, Odisha, <br>
+                        Mobile:- +917381494358,<br>
+                                         +918917624853, <br>
+                        Email:-  Mjdas14@gmail.com <br></address>
+                    </div>   </footer> 
+                
+
+        </section>
+            
+        <!-------- end footer-------- -->
+        <section class="end" id="end">
+            &copy  2020 Copyright:
+            <a href="www.mjdas.tech">Mjdas.tech</a>
+        </section>  
+</body>
+<script src="mjdas.js"></script>
+</html>
