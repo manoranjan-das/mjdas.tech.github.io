@@ -32,8 +32,9 @@ function validates(){
             return false;
                 }
          else{
-            
+            alert("Thank You..!!!");
             return true;
+			
         }
         
         
